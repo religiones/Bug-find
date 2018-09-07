@@ -217,9 +217,9 @@
 				$('#tabs a:last').tab('show');
 
 				// 切换窗口大小(?)
-				$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-					$(window).trigger('resize');
-				});
+				// $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+				// 	$(window).trigger('resize');
+				// });
 	  
 				//现在加载study.json
 				loadStudy(studyViewerCopy, viewportTemplate, study.studyId + ".json");
